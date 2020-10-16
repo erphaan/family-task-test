@@ -1,11 +1,12 @@
-﻿using System;
+﻿using Domain.ViewModel;
+using System;
 using System.Collections.Generic;
 using System.Text;
 
 namespace Domain.Commands
 {
-    public class UpdateMemberCommandResult
+    public class UpdateTaskCommandResult
     {
         public bool Succeed { get; set; }
-    }    
+    }
 }
